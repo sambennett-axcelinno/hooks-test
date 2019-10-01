@@ -48,7 +48,7 @@
     <dependency>
       <groupId>com.axcelinno.shop</groupId>
       <artifactId>Electronics</artifactId>
-      <version>0.0.13-SNAPSHOT</version>
+      <version>0.0.14-SNAPSHOT</version>
     </dependency>
   </dependencies>
   <build>
