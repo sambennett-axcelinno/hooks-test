@@ -53,7 +53,8 @@
         "Result" : new ObjectDataType(),
     ],
     "displayName" : "REST",
-    "icon" : "defaultservicenodeicon.png"
+    "icon" : "defaultservicenodeicon.png",
+    "defaultHandler" : "mvel: new org.jbpm.process.workitem.rest.RESTWorkItemHandler()",
   ],
 
   [
