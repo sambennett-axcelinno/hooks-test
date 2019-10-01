@@ -45,11 +45,6 @@
       <version>7.23.0.Final-redhat-00003</version>
       <scope>provided</scope>
     </dependency>
-    <dependency>
-      <groupId>com.axcelinno.shop</groupId>
-      <artifactId>Electronics</artifactId>
-      <version>0.0.14-SNAPSHOT</version>
-    </dependency>
   </dependencies>
   <build>
     <plugins>
