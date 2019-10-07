@@ -10,6 +10,8 @@ public class test implements java.io.Serializable {
 
 	private java.lang.String hi;
 
+	private java.lang.Boolean whatsUp;
+
 	public test() {
 	}
 
@@ -21,8 +23,17 @@ public class test implements java.io.Serializable {
 		this.hi = hi;
 	}
 
-	public test(java.lang.String hi) {
+	public java.lang.Boolean getWhatsUp() {
+		return this.whatsUp;
+	}
+
+	public void setWhatsUp(java.lang.Boolean whatsUp) {
+		this.whatsUp = whatsUp;
+	}
+
+	public test(java.lang.String hi, java.lang.Boolean whatsUp) {
 		this.hi = hi;
+		this.whatsUp = whatsUp;
 	}
 
 }
