@@ -1,9 +1,0 @@
-package com.myspace.rest_test;
-
-import java.lang.Number;
-
-rule "test-for-hooks"
-	dialect "mvel"
-	when
-	then
-end
