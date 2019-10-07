@@ -1,2 +1,8 @@
 package com.myspace.rest_test;
 
+rule "hooks"
+    when
+    
+    then
+    
+end
