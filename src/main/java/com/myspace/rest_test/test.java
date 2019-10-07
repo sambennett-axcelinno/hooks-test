@@ -6,12 +6,23 @@ package com.myspace.rest_test;
 
 public class test implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public test() {
-    }
+	private java.lang.String hi;
 
+	public test() {
+	}
 
+	public java.lang.String getHi() {
+		return this.hi;
+	}
 
+	public void setHi(java.lang.String hi) {
+		this.hi = hi;
+	}
+
+	public test(java.lang.String hi) {
+		this.hi = hi;
+	}
 
 }
