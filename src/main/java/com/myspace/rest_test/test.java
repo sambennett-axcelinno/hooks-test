@@ -18,6 +18,8 @@ public class test implements java.io.Serializable {
 
 	private java.math.BigDecimal JJ;
 
+	private java.lang.Short test;
+
 	public test() {
 	}
 
@@ -61,13 +63,23 @@ public class test implements java.io.Serializable {
 		this.JJ = JJ;
 	}
 
+	public java.lang.Short getTest() {
+		return this.test;
+	}
+
+	public void setTest(java.lang.Short test) {
+		this.test = test;
+	}
+
 	public test(java.lang.String hi, java.lang.Boolean whatsUp,
-			java.lang.Long KP, int luka, java.math.BigDecimal JJ) {
+			java.lang.Long KP, int luka, java.math.BigDecimal JJ,
+			java.lang.Short test) {
 		this.hi = hi;
 		this.whatsUp = whatsUp;
 		this.KP = KP;
 		this.luka = luka;
 		this.JJ = JJ;
+		this.test = test;
 	}
 
 }
