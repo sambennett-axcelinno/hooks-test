@@ -14,6 +14,8 @@ public class test implements java.io.Serializable {
 
 	private java.lang.Long KP;
 
+	private int luka;
+
 	public test() {
 	}
 
@@ -41,11 +43,20 @@ public class test implements java.io.Serializable {
 		this.KP = KP;
 	}
 
+	public int getLuka() {
+		return this.luka;
+	}
+
+	public void setLuka(int luka) {
+		this.luka = luka;
+	}
+
 	public test(java.lang.String hi, java.lang.Boolean whatsUp,
-			java.lang.Long KP) {
+			java.lang.Long KP, int luka) {
 		this.hi = hi;
 		this.whatsUp = whatsUp;
 		this.KP = KP;
+		this.luka = luka;
 	}
 
 }
