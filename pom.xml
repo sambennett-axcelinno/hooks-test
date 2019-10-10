@@ -5,7 +5,7 @@
   <groupId>com.myspace</groupId>
   <artifactId>rest-test</artifactId>
   <version>1.0.4-SNAPSHOT</version>
-  <packaging>kjar</packaging>
+  <!--<packaging>kjar</packaging>-->
   <name>rest-test</name>
   <description></description>
   <dependencies>
@@ -46,6 +46,7 @@
       <scope>provided</scope>
     </dependency>
   </dependencies>
+  <!--
   <build>
     <plugins>
       <plugin>
@@ -56,4 +57,5 @@
       </plugin>
     </plugins>
   </build>
+  -->
 </project>
