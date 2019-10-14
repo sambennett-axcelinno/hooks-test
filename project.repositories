@@ -20,14 +20,6 @@
       <include>true</include>
       <metadata>
         <id>central</id>
-        <url>http://192.168.99.100:8081/artifactory/plugins-release</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>central</id>
         <url>http://192.168.99.100:8081/artifactory/libs-release</url>
         <source>SETTINGS</source>
       </metadata>
@@ -37,6 +29,14 @@
       <metadata>
         <id>snapshots</id>
         <url>http://192.168.99.100:8081/artifactory/libs-snapshot</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>central</id>
+        <url>http://192.168.99.100:8081/artifactory/plugins-release</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
