@@ -8,7 +8,7 @@
   <!--<packaging>kjar</packaging>-->
   <name>rest-test</name>
   <description></description>
-  <!--
+  
   <dependencies>
     <dependency>
       <groupId>com.thoughtworks.xstream</groupId>
@@ -16,6 +16,7 @@
       <version>1.4.11</version>
       <scope>test</scope>
     </dependency>
+    <!--
     <dependency>
       <groupId>org.kie</groupId>
       <artifactId>kie-internal</artifactId>
@@ -46,8 +47,9 @@
       <version>7.23.0.Final-redhat-00003</version>
       <scope>provided</scope>
     </dependency>
+    -->
   </dependencies>
-  -->
+  
   <!--
   <build>
     <plugins>
