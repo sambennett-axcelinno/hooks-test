@@ -4,23 +4,7 @@
       <include>true</include>
       <metadata>
         <id>snapshots</id>
-        <url>http://192.168.99.100:8081/artifactory/libs-snapshot-local</url>
-        <source>DISTRIBUTION_MANAGEMENT</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>central</id>
-        <url>http://192.168.99.100:8081/artifactory/plugins-release</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>snapshots</id>
-        <url>http://192.168.99.100:8081/artifactory/libs-snapshot</url>
+        <url>http://192.168.99.100:8081/artifactory/plugins-snapshot</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
@@ -29,6 +13,14 @@
       <metadata>
         <id>central</id>
         <url>http://192.168.99.100:8081/artifactory/libs-release</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>central</id>
+        <url>http://192.168.99.100:8081/artifactory/plugins-release</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
@@ -44,7 +36,15 @@
       <include>true</include>
       <metadata>
         <id>snapshots</id>
-        <url>http://192.168.99.100:8081/artifactory/plugins-snapshot</url>
+        <url>http://192.168.99.100:8081/artifactory/libs-snapshot-local</url>
+        <source>DISTRIBUTION_MANAGEMENT</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>snapshots</id>
+        <url>http://192.168.99.100:8081/artifactory/libs-snapshot</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
